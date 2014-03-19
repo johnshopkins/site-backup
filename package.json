@@ -1,0 +1,31 @@
+{
+  "name": "dbbackup",
+  "version": "0.0.1",
+  "description": "Backup a database to Amazon s3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:johnshopkins/dbbackup.git"
+  },
+  "author": [
+    "Jason Rhodes",
+    "Jen Wachter"
+  ],
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "chai": "~1.9.0",
+    "mocha": "~1.17.1",
+    "sinon": "~1.8.1"
+  },
+  "dependencies": {
+    "aws-sdk": "~2.0.0-rc11",
+    "async": "~0.2.10",
+    "mkdirp": "~0.3.5",
+    "rimraf": "~2.2.6",
+    "moment": "~2.5.1",
+    "underscore": "~1.6.0"
+  }
+}
