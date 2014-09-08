@@ -33,7 +33,7 @@ describe("cleanup", function () {
 
     it("should return empty if no files need to be deleted", function () {
 
-      cleanup.dbprefix = "jhu_staging";
+      cleanup.fileprefix = "jhu_staging";
       cleanup.today = moment("2014-03-12", "YYYY-MM-DD");
       
       var objects = [
