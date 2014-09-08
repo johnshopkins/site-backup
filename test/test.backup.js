@@ -1,7 +1,7 @@
 var expect = require("chai").expect;
 var sinon = require("sinon");
 var moment = require("moment");
-var backup = require("../lib/db/backup");
+var cleanup_lib = require("../index");
 
 describe("backup", function () {
 
