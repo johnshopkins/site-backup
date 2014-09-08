@@ -1,7 +1,9 @@
 var expect = require("chai").expect;
 var sinon = require("sinon");
 var moment = require("moment");
-var cleanup = require("../lib/cleanup");
+var cleanup_lib = require("../lib/cleanup");
+var cleanup = new cleanup_lib("bucket", "jhu_staging");
+
 
 describe("cleanup", function () {
 
