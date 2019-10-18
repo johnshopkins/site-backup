@@ -1,6 +1,6 @@
 {
   "name": "site-backup",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Backup a database and website files to Amazon s3.",
   "main": "index.js",
   "scripts": {
